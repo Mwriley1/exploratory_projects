@@ -1,0 +1,25 @@
+Start
+
+Deal a New Hand
+  Shuffle deck
+  Deal initial player and dealer cards
+  Player option to hit or stay
+    If hit
+      evalute 21 or bust
+        If no bust
+          loop to player option to hit or stay
+    if stay
+      return
+  Dealer option to hit or stay
+    if 15 or more
+      stay
+    if less than 15
+      hit
+      if no 21 or bust
+        loop to dealer option to hit or stay
+  Evalue player versus dealer
+  print win or lose message
+  loop to main menu
+Quit
+
+End
